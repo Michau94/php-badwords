@@ -7,6 +7,9 @@
     <title></title>
 </head>
 <body>
-    
+
+   <?php
+   $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam, veritatis nobis similique suscipit hic, recusandae, adipisci deserunt tenetur dolor voluptas quisquam alias soluta eos dolores voluptatum obcaecati perspiciatis facilis.';
+    ?>
 </body>
 </html>
