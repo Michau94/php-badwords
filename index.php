@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="index.php" method="GET">
-        <input type="text" name="word" placeholder="Insert word here..." value="dolor">
+        <input type="text" name="word" placeholder="Insert word here...">
         <button type="submit">Censor</button>
     </form>
 
@@ -16,7 +16,7 @@
    $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam, veritatis nobis similique suscipit hic, recusandae, adipisci deserunt tenetur dolor voluptas quisquam alias soluta eos dolores voluptatum obcaecati perspiciatis facilis.';
    $length = strlen($text);
    $censored = $_GET['word'];
-   $replaced = str_replace(' ' . $censored . ' ', ' *** ', $text);
+   $replaced = str_replace(" $censored ", ' *** ', $text);
    $lengthReplaced= strlen($replaced);
    
     ?>
